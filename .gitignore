@@ -1,0 +1,61 @@
+# Ignore Visual Studio temporary files, build results, and
+# folder settings
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vscode/
+
+# Auto-generated files (backup files, system files, etc.)
+*.log
+*.bak
+*.swp
+
+# Ignore Visual Studio Code specific settings
+.vscode/
+
+# Ignore ReSharper files
+*.DotSettings.user
+
+# Ignore JetBrains Rider files
+.idea/
+
+# Ignore Rider caches
+.idea/
+*.dotCover
+*.dotMemory
+*.dotTrace
+
+# Ignore build output directories
+bin/
+obj/
+
+# Ignore NuGet packages
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Ignore files from Application Insights
+ApplicationInsights.config
+ApplicationInsightsTelemetry.config
+
+# Ignore web config transformation files
+*.Transform.config
+
+# Ignore publish output folders
+wwwroot/
+dist/
+
+# Ignore Rider project files
+.idea/
+
+# Ignore database and entity model files
+*.mdf
+*.ldf
+*.ndf
